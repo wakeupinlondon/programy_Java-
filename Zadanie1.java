@@ -5,17 +5,17 @@ public class Zadanie1 {
 		double a = 56.8;
 		double b = 25.4;
 		double c = 3.14159;
-		double d = a / c;
-		double e = b / c;
+		double d = b / a;
+		double e = a / c;
 		
+		System.out.println("b / a = " + (b / a));
 		System.out.println("a / c = " + (a / c));
-		System.out.println("b / c = " + (b / c));
 		
 		if (d > e) {
 		System.out.print("Liczba " + (a/c));
-		System.out.print(" jest wiêksza od liczby " + (b/c));
+		System.out.print(" jest wiÃªksza od liczby " + (b/c));
 		} else { if (d == e ) { 
-			System.out.println("Liczby s¹ równe");
+			System.out.println("Liczby sÂ¹ rÃ³wne");
 		}
 		
 	}
